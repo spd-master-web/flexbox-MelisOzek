@@ -13,7 +13,7 @@ body {
 }
 
 section {
-  margin: 10em 0;
+  margin: em 0;
 }
 
 h2 {
@@ -52,11 +52,10 @@ Centering
 }
 
 .centering-container {
-  width: 40em;
-  min-height: 30em;
+  width: 80em;
+  min-height: 50em;
 
   border: .125em dashed #666;
- 
 }
 
 .centering-item {
@@ -64,21 +63,23 @@ Centering
 
   /* max-width: 65%; */
   flex: 0 1 65%;
-
-  border: .625em solid pink;
 }
 
 .align-start {
-  align-self: flex-start;
-  
+  align-self: stretch;
+  background-color: lightgray;
+  margin-right:10em;
+
 }
 
 .align-end {
-  align-self: flex-end;
+  align-self: stretch ;
+  background-color: lightgray;
 }
 
 .align-stretch {
   align-self: stretch;
+  
 }
 
 /*+++++++++++++++
@@ -89,6 +90,8 @@ Nevigation
 
 .navigation {
   min-width: 40em;
+
+  background-color: gray;
 }
 
 .navigation-list {
